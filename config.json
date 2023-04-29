@@ -1,0 +1,72 @@
+{
+    "preferences": {
+        "addons": {
+            "cycles": {
+                "preferences": {
+                    "compute_device_type": "OPTIX"
+                }
+            }
+        }
+    },
+    "scene": {
+        "cycles": {
+            "blur_glossy": 0.0,
+            "caustics_reflective": true,
+            "caustics_refractive": true,
+            "curve_shape": "THICK",
+            "debug_bvh_type": "STATIC_BVH",
+            "debug_use_compact_bvh": false,
+            "debug_use_hair_bvh": true,
+            "debug_use_spatial_splits": true,
+            "denoiser": "OPTIX",
+            "device": "GPU",
+            "diffuse_bounces": null,
+            "displacement_method": "BOTH",
+            "feature_set": "EXPERIMENTAL",
+            "glossy_bounces": null,
+            "light_sampling_threshold": 0.001,
+            "max_bounces": null,
+            "samples": 128,
+            "shading_system": true,
+            "tile_size": 8192,
+            "transmission_bounces": null,
+            "use_auto_tile": false,
+            "use_denoising": false,
+            "use_guiding": true,
+            "use_light_tree": true,
+            "volume_bounces": null,
+            "volume_interpolation": "CUBIC",
+            "volume_sampling": "MULTIPLE_IMPORTANCE"
+        },
+        "frame_end": 1,
+        "frame_start": 1,
+        "frame_step": 1,
+        "render": {
+            "dither_intensity": null,
+            "filepath": "//render",
+            "frame_map_new": null,
+            "frame_map_old": null,
+            "image_settings": {
+                "color_depth": "8",
+                "color_mode": "RGB",
+                "compression": null,
+                "exr_codec": null,
+                "file_format": "JPEG",
+                "jpeg2k_codec": null,
+                "quality": null,
+                "tiff_codec": null
+            },
+            "pixel_aspect_x": null,
+            "pixel_aspect_y": null,
+            "resolution_percentage": 50,
+            "resolution_x": null,
+            "resolution_y": null,
+            "use_border": true,
+            "use_compositing": null,
+            "use_crop_to_border": true,
+            "use_file_extension": true,
+            "use_render_cache": null,
+            "use_sequencer": null
+        }
+    }
+}
